@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { CreateProject } from '../../store/actions/projectActions';
+import { createProject } from '../../store/actions/projectActions';
 
 class CreateProject extends Component {
   state = {
